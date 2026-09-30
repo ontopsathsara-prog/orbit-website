@@ -1,0 +1,190 @@
+/* Orbit Dark Theme Styling */
+body {
+  background-color: #070913;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.orbit-showcase {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Banner Styling */
+.hero-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-logo {
+  width: 90px;
+  height: 90px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin: 10px 0 5px;
+  font-weight: 800;
+}
+
+.hero-tagline {
+  font-size: 1.2rem;
+  color: #a0a5b5;
+}
+
+.hero-tagline .highlight {
+  color: #6c5ce7;
+}
+
+.hero-desc {
+  max-width: 500px;
+  margin: 15px auto;
+  color: #8a8f9e;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Features List Styling */
+.section-title {
+  color: #4a8cff;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 16px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-box {
+  background: rgba(74, 140, 255, 0.15);
+  font-size: 1.5rem;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.feature-card h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.feature-card p {
+  margin: 4px 0 0 0;
+  color: #8a8f9e;
+  font-size: 0.85rem;
+}
+
+/* Screen Navigation Tabs */
+.tabs-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.tab-btn {
+  background: rgba(74, 140, 255, 0.1);
+  color: #4a8cff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #6c5ce7;
+  color: #ffffff;
+}
+
+/* Phone Mockups Grid */
+.screens-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.phone-mockup img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Badges / Tech Stack */
+.footer-badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  font-size: 0.8rem;
+}
+
+.badge-label {
+  color: #8a8f9e;
+  font-weight: bold;
+}
+
+.badge {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: #d1d5db;
+}
+
+/* App Store Buttons */
+.store-container {
+  text-align: center;
+}
+
+.store-title {
+  font-size: 0.75rem;
+  color: #8a8f9e;
+  letter-spacing: 1px;
+}
+
+.store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.btn-store {
+  background: #000;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+.btn-store strong {
+  font-size: 0.95rem;
+}
